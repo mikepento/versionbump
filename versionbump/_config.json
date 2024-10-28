@@ -1,0 +1,14 @@
+{
+    "search-patterns": 
+    [
+        "*.h",
+        "*.txt"
+    ],
+    
+    "source-control-mgmt":
+    [
+        "Git",
+        "Subversion",
+        "Mercurial"
+    ]
+}

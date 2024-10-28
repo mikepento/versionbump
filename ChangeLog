@@ -1,0 +1,16 @@
+==================
+2024-10-28 - 1.0.2
+==================
+  * Added whole string version replacment (--replace-version) argument.
+  * Stubbed out minimal SCM support for tagging and commits (Git only).
+  * Updates to README.md
+  * Added GPL license (COPYING, COPYING.LESSER files)
+  * Added copyright headers
+  * Added INSTALL file
+  * Added ChangeLog!
+
+==================
+2024-07-24 - 1.0.1
+==================
+  * Added binary file checking (is_binary()) function to utils.
+  * General refactoring.

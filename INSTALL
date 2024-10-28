@@ -1,0 +1,30 @@
+1. REQUIREMENTS
+===============
+
+  * Python 3.7 or higher. (http://www.python.org/)
+  
+  * Latest python-setuptool. (https://pypi.org/project/setuptools/)
+  
+2. INSTALLATION
+===============
+
+  The easiest way to install versionbump is via pip. Clone a copy of the 
+  versionbump repository and install with pip as follows.
+  
+  cd <versionbump-path>
+  pip install .
+  
+3. UNINSTALLATION
+=================
+
+  Uninstalling versionbump should be done using pip as well.
+  
+  pip uninstall versionbump
+  
+4. DOCUMENTATION
+================
+
+  Versionbump is very easy to use. See the output of the help command for 
+  an explanation of the available command line arguments.
+  
+  versionbump --help
