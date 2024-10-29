@@ -48,14 +48,14 @@ class Process:
 
         # get bumped version
         self.bumped_version = Version(self.version).bump(field, increment)
-        
-        if self.replace != None:
+
+        if self.replace is not None:
             self.bumped_version = Version(self.replace).replace()
         else:
             self.bumped_version = Version(self.version).bump(field, increment)
 
     def do_process(self):
-        if self.replace != None:
+        if self.replace is not None:
             logging.info(
                 'Replacing version \'%s\' with version \'%s\'.',
                 self.version,

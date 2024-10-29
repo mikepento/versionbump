@@ -24,7 +24,9 @@ from versionbump.config import Config
 
 from versionbump import (
     __title__,
-    __version__
+    __version__,
+    __author__,
+    __copyright__
     )
 
 def _is_scm_installed():
@@ -51,9 +53,10 @@ def main():
                         const=1, type=int, default=1)
     parser.add_argument('field', choices=['major', 'minor', 'patch'],
                         nargs='?',
-                        help='Version field to increment. (Required)')
+                        help='Version field to increment.')
     parser.add_argument('-v', '--version', action='version',
-                        version=f'%(prog)s {__version__}')
+                        version=f'%(prog)s {__version__} - \
+                            {__copyright__}, {__author__}')
 
     try:
         args = parser.parse_args(None if sys.argv[1:] else ['-h'])

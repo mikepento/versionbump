@@ -2,3 +2,5 @@
 .spyproject/*
 __pycache__
 debug.log
+build
+*.egg-info
